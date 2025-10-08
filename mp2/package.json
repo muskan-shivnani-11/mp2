@@ -1,6 +1,7 @@
 {
   "name": "mp2",
   "version": "0.1.0",
+  "homepage": "https://muskan-shivnani-11.github.io/mp2",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
