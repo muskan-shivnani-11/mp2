@@ -8,15 +8,12 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+
+const basename = process.env.NODE_ENV === 'production' ? '/mp2' : '/';
+
 root.render(
   <React.StrictMode>
-    <BrowserRouter
-      basename={
-        process.env.PUBLIC_URL
-          ? new URL(process.env.PUBLIC_URL).pathname.replace(/\/+$/, '') || '/'
-          : '/'
-      }
-    >
+    <BrowserRouter basename={basename}>
       <App />
     </BrowserRouter>
   </React.StrictMode>

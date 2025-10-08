@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting…</title>
+    <meta http-equiv="refresh" content="0; url=/mp2/" />
+    <script>
+      (function redirect() {
+        var path = window.location.pathname.replace(/^\/mp2/, '');
+        var search = window.location.search;
+        var hash = window.location.hash;
+        window.location.replace('/mp2/' + path + search + hash);
+      })();
+    </script>
+  </head>
+  <body>
+    Redirecting…
+  </body>
+</html>
