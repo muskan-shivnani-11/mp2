@@ -1,0 +1,83 @@
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #f6f8fa;
+  color: #1f2933;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.layout__header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  background: #ffffff;
+  border-bottom: 1px solid #d0d7de;
+  gap: 1rem;
+}
+
+.layout__brand {
+  display: flex;
+  flex-direction: column;
+}
+
+.layout__title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+.layout__subtitle {
+  font-size: 0.85rem;
+  color: #69707a;
+}
+
+.layout__nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.layout__link {
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  text-decoration: none;
+  color: #1f2933;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.layout__link:hover {
+  background: #e8f0ff;
+  color: #1b4db1;
+}
+
+.layout__link--active {
+  background: #1b4db1;
+  color: #ffffff;
+}
+
+.layout__main {
+  flex: 1;
+  padding: 2rem clamp(1rem, 4vw, 4rem);
+  display: flex;
+  flex-direction: column;
+}
+
+.layout__footer {
+  padding: 1rem 2rem;
+  background: #ffffff;
+  border-top: 1px solid #d0d7de;
+  font-size: 0.85rem;
+  color: #69707a;
+}
+
+.layout__footer-link {
+  color: #1b4db1;
+  text-decoration: none;
+}
+
+.layout__footer-link:hover {
+  text-decoration: underline;
+}
