@@ -197,7 +197,7 @@ const ListPage = () => {
 
       <div className="list-page__controls">
         <label className="list-page__search">
-          <span className="list-page__label">Search meals</span>
+          <span className="list-page__label">List meals</span>
           <input
             type="search"
             value={query}

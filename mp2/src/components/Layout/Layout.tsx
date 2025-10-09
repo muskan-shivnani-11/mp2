@@ -17,7 +17,7 @@ function Layout() {
               isActive ? 'layout__link layout__link--active' : 'layout__link'
             }
           >
-            Search
+            List
           </NavLink>
           <NavLink
             to="/gallery"

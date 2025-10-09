@@ -10,6 +10,6 @@ test('renders navigation links', () => {
     </MemoryRouter>
   );
 
-  expect(screen.getByRole('link', { name: /search/i })).toBeInTheDocument();
+  expect(screen.getByRole('link', { name: /list/i })).toBeInTheDocument();
   expect(screen.getByRole('link', { name: /gallery/i })).toBeInTheDocument();
 });
